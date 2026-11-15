@@ -8,6 +8,7 @@
 #define NOMINMAX
 #endif
 #include <windows.h>
+#include <objbase.h>
 #include <windowsx.h>
 #include <commctrl.h>
 #include <commdlg.h>
