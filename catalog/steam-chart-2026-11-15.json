@@ -1,0 +1,707 @@
+{
+  "reviewedDate": "2026-11-15",
+  "chartSource": "https://store.steampowered.com/charts/mostplayed",
+  "metric": "Steam concurrent players; snapshot, not global all-platform monthly popularity",
+  "rows": [
+    {
+      "rank": 1,
+      "link": 65,
+      "name": "Counter-Strike 2",
+      "steamAppId": 730,
+      "source": "https://store.steampowered.com/app/730/"
+    },
+    {
+      "rank": 2,
+      "link": 66,
+      "name": "Dota 2",
+      "steamAppId": 570,
+      "source": "https://store.steampowered.com/app/570/"
+    },
+    {
+      "rank": 3,
+      "link": 67,
+      "name": "ROB RUN",
+      "steamAppId": 4262460,
+      "source": "https://store.steampowered.com/app/4262460/"
+    },
+    {
+      "rank": 4,
+      "link": 68,
+      "name": "Deadlock",
+      "steamAppId": 1422450,
+      "source": "https://store.steampowered.com/app/1422450/"
+    },
+    {
+      "rank": 5,
+      "link": 69,
+      "name": "Bongo Cat",
+      "steamAppId": 3419430,
+      "source": "https://store.steampowered.com/app/3419430/"
+    },
+    {
+      "rank": 6,
+      "link": 70,
+      "name": "PUBG: BATTLEGROUNDS",
+      "steamAppId": 578080,
+      "source": "https://store.steampowered.com/app/578080/"
+    },
+    {
+      "rank": 7,
+      "link": 71,
+      "name": "Call of Duty®",
+      "steamAppId": 1938090,
+      "source": "https://store.steampowered.com/app/1938090/"
+    },
+    {
+      "rank": 8,
+      "link": 72,
+      "name": "AION 2",
+      "steamAppId": 3393110,
+      "source": "https://store.steampowered.com/app/3393110/"
+    },
+    {
+      "rank": 9,
+      "link": 73,
+      "name": "WARDOGS",
+      "steamAppId": 1867240,
+      "source": "https://store.steampowered.com/app/1867240/"
+    },
+    {
+      "rank": 10,
+      "link": 74,
+      "name": "Path of Exile",
+      "steamAppId": 238960,
+      "source": "https://store.steampowered.com/app/238960/"
+    },
+    {
+      "rank": 11,
+      "link": 75,
+      "name": "Cyberpunk 2077",
+      "steamAppId": 1091500,
+      "source": "https://store.steampowered.com/app/1091500/"
+    },
+    {
+      "rank": 12,
+      "link": 76,
+      "name": "Rust",
+      "steamAppId": 252490,
+      "source": "https://store.steampowered.com/app/252490/"
+    },
+    {
+      "rank": 13,
+      "link": 77,
+      "name": "Team Fortress 2",
+      "steamAppId": 440,
+      "source": "https://store.steampowered.com/app/440/"
+    },
+    {
+      "rank": 14,
+      "link": 78,
+      "name": "Slay the Spire 2",
+      "steamAppId": 2868840,
+      "source": "https://store.steampowered.com/app/2868840/"
+    },
+    {
+      "rank": 15,
+      "link": 79,
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "steamAppId": 359550,
+      "source": "https://store.steampowered.com/app/359550/"
+    },
+    {
+      "rank": 16,
+      "link": 80,
+      "name": "Euro Truck Simulator 2",
+      "steamAppId": 227300,
+      "source": "https://store.steampowered.com/app/227300/"
+    },
+    {
+      "rank": 17,
+      "link": 81,
+      "name": "Football Manager 27",
+      "steamAppId": 4530370,
+      "source": "https://store.steampowered.com/app/4530370/"
+    },
+    {
+      "rank": 18,
+      "link": 82,
+      "name": "Apex Legends™",
+      "steamAppId": 1172470,
+      "source": "https://store.steampowered.com/app/1172470/"
+    },
+    {
+      "rank": 19,
+      "link": 83,
+      "name": "Valheim",
+      "steamAppId": 892970,
+      "source": "https://store.steampowered.com/app/892970/"
+    },
+    {
+      "rank": 20,
+      "link": 84,
+      "name": "Marvel Rivals",
+      "steamAppId": 2767030,
+      "source": "https://store.steampowered.com/app/2767030/"
+    },
+    {
+      "rank": 21,
+      "link": 85,
+      "name": "War Thunder",
+      "steamAppId": 236390,
+      "source": "https://store.steampowered.com/app/236390/"
+    },
+    {
+      "rank": 22,
+      "link": 86,
+      "name": "Enshrouded",
+      "steamAppId": 1203620,
+      "source": "https://store.steampowered.com/app/1203620/"
+    },
+    {
+      "rank": 23,
+      "link": 87,
+      "name": "ARC Raiders",
+      "steamAppId": 1808500,
+      "source": "https://store.steampowered.com/app/1808500/"
+    },
+    {
+      "rank": 24,
+      "link": 88,
+      "name": "Geometry Dash",
+      "steamAppId": 322170,
+      "source": "https://store.steampowered.com/app/322170/"
+    },
+    {
+      "rank": 25,
+      "link": 89,
+      "name": "Warframe",
+      "steamAppId": 230410,
+      "source": "https://store.steampowered.com/app/230410/"
+    },
+    {
+      "rank": 26,
+      "link": 90,
+      "name": "Phantom Blade Zero",
+      "steamAppId": 4115450,
+      "source": "https://store.steampowered.com/app/4115450/"
+    },
+    {
+      "rank": 27,
+      "link": 91,
+      "name": "Grand Theft Auto V Enhanced",
+      "steamAppId": 3240220,
+      "source": "https://store.steampowered.com/app/3240220/"
+    },
+    {
+      "rank": 28,
+      "link": 92,
+      "name": "Grand Theft Auto V Legacy",
+      "steamAppId": 271590,
+      "source": "https://store.steampowered.com/app/271590/"
+    },
+    {
+      "rank": 29,
+      "link": 93,
+      "name": "Dead by Daylight",
+      "steamAppId": 381210,
+      "source": "https://store.steampowered.com/app/381210/"
+    },
+    {
+      "rank": 30,
+      "link": 94,
+      "name": "Wallpaper Engine",
+      "steamAppId": 431960,
+      "source": "https://store.steampowered.com/app/431960/"
+    },
+    {
+      "rank": 31,
+      "link": 95,
+      "name": "Baldur's Gate 3",
+      "steamAppId": 1086940,
+      "source": "https://store.steampowered.com/app/1086940/"
+    },
+    {
+      "rank": 32,
+      "link": 96,
+      "name": "Project Zomboid",
+      "steamAppId": 108600,
+      "source": "https://store.steampowered.com/app/108600/"
+    },
+    {
+      "rank": 33,
+      "link": 97,
+      "name": "Crosshair X",
+      "steamAppId": 1366800,
+      "source": "https://store.steampowered.com/app/1366800/"
+    },
+    {
+      "rank": 34,
+      "link": 98,
+      "name": "Overwatch®",
+      "steamAppId": 2357570,
+      "source": "https://store.steampowered.com/app/2357570/"
+    },
+    {
+      "rank": 35,
+      "link": 99,
+      "name": "DayZ",
+      "steamAppId": 221100,
+      "source": "https://store.steampowered.com/app/221100/"
+    },
+    {
+      "rank": 36,
+      "link": 100,
+      "name": "Stardew Valley",
+      "steamAppId": 413150,
+      "source": "https://store.steampowered.com/app/413150/"
+    },
+    {
+      "rank": 37,
+      "link": 101,
+      "name": "Farming Simulator 25",
+      "steamAppId": 2300320,
+      "source": "https://store.steampowered.com/app/2300320/"
+    },
+    {
+      "rank": 38,
+      "link": 102,
+      "name": "TBH: Task Bar Hero",
+      "steamAppId": 3678970,
+      "source": "https://store.steampowered.com/app/3678970/"
+    },
+    {
+      "rank": 39,
+      "link": 103,
+      "name": "EA SPORTS FC™ 27",
+      "steamAppId": 4080220,
+      "source": "https://store.steampowered.com/app/4080220/"
+    },
+    {
+      "rank": 40,
+      "link": 104,
+      "name": "VRChat",
+      "steamAppId": 438100,
+      "source": "https://store.steampowered.com/app/438100/"
+    },
+    {
+      "rank": 41,
+      "link": 105,
+      "name": "The Elder Scrolls V: Skyrim Special Edition",
+      "steamAppId": 489830,
+      "source": "https://store.steampowered.com/app/489830/"
+    },
+    {
+      "rank": 42,
+      "link": 106,
+      "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+      "steamAppId": 4348910,
+      "source": "https://store.steampowered.com/app/4348910/"
+    },
+    {
+      "rank": 43,
+      "link": 107,
+      "name": "R.E.P.O.",
+      "steamAppId": 3241660,
+      "source": "https://store.steampowered.com/app/3241660/"
+    },
+    {
+      "rank": 44,
+      "link": 108,
+      "name": "Hearts of Iron IV",
+      "steamAppId": 394360,
+      "source": "https://store.steampowered.com/app/394360/"
+    },
+    {
+      "rank": 45,
+      "link": 109,
+      "name": "Battlefield™ 6",
+      "steamAppId": 2807960,
+      "source": "https://store.steampowered.com/app/2807960/"
+    },
+    {
+      "rank": 46,
+      "link": 110,
+      "name": "Moon Sweepers",
+      "steamAppId": 5335510,
+      "source": "https://store.steampowered.com/app/5335510/"
+    },
+    {
+      "rank": 47,
+      "link": 111,
+      "name": "The Witcher 3: Wild Hunt — Remastered",
+      "steamAppId": 292030,
+      "source": "https://store.steampowered.com/app/292030/"
+    },
+    {
+      "rank": 48,
+      "link": 112,
+      "name": "The Binding of Isaac: Rebirth",
+      "steamAppId": 250900,
+      "source": "https://store.steampowered.com/app/250900/"
+    },
+    {
+      "rank": 49,
+      "link": 113,
+      "name": "Delta Force",
+      "steamAppId": 2507950,
+      "source": "https://store.steampowered.com/app/2507950/"
+    },
+    {
+      "rank": 50,
+      "link": 114,
+      "name": "Total War: WARHAMMER III",
+      "steamAppId": 1142710,
+      "source": "https://store.steampowered.com/app/1142710/"
+    },
+    {
+      "rank": 51,
+      "link": 115,
+      "name": "BeamNG.drive",
+      "steamAppId": 284160,
+      "source": "https://store.steampowered.com/app/284160/"
+    },
+    {
+      "rank": 52,
+      "link": 116,
+      "name": "The Sims™ 4",
+      "steamAppId": 1222670,
+      "source": "https://store.steampowered.com/app/1222670/"
+    },
+    {
+      "rank": 53,
+      "link": 117,
+      "name": "Garry's Mod",
+      "steamAppId": 4000,
+      "source": "https://store.steampowered.com/app/4000/"
+    },
+    {
+      "rank": 54,
+      "link": 118,
+      "name": "Red Dead Redemption 2",
+      "steamAppId": 1174180,
+      "source": "https://store.steampowered.com/app/1174180/"
+    },
+    {
+      "rank": 55,
+      "link": 119,
+      "name": "Aniimo",
+      "steamAppId": 4126040,
+      "source": "https://store.steampowered.com/app/4126040/"
+    },
+    {
+      "rank": 56,
+      "link": 120,
+      "name": "HELLDIVERS™ 2",
+      "steamAppId": 553850,
+      "source": "https://store.steampowered.com/app/553850/"
+    },
+    {
+      "rank": 57,
+      "link": 121,
+      "name": "RimWorld",
+      "steamAppId": 294100,
+      "source": "https://store.steampowered.com/app/294100/"
+    },
+    {
+      "rank": 58,
+      "link": 122,
+      "name": "Desktop Wallet Heroes",
+      "steamAppId": 5052450,
+      "source": "https://store.steampowered.com/app/5052450/"
+    },
+    {
+      "rank": 59,
+      "link": 123,
+      "name": "Sid Meier’s Civilization® VI",
+      "steamAppId": 289070,
+      "source": "https://store.steampowered.com/app/289070/"
+    },
+    {
+      "rank": 60,
+      "link": 124,
+      "name": "Crimson Desert Enhanced",
+      "steamAppId": 3321460,
+      "source": "https://store.steampowered.com/app/3321460/"
+    },
+    {
+      "rank": 61,
+      "link": 125,
+      "name": "Rocket League®",
+      "steamAppId": 252950,
+      "source": "https://store.steampowered.com/app/252950/"
+    },
+    {
+      "rank": 62,
+      "link": 126,
+      "name": "Arena Breakout: Infinite",
+      "steamAppId": 2073620,
+      "source": "https://store.steampowered.com/app/2073620/"
+    },
+    {
+      "rank": 63,
+      "link": 127,
+      "name": "Palworld",
+      "steamAppId": 1623730,
+      "source": "https://store.steampowered.com/app/1623730/"
+    },
+    {
+      "rank": 64,
+      "link": 128,
+      "name": "Left 4 Dead 2",
+      "steamAppId": 550,
+      "source": "https://store.steampowered.com/app/550/"
+    },
+    {
+      "rank": 65,
+      "link": 129,
+      "name": "Bodycam",
+      "steamAppId": 2406770,
+      "source": "https://store.steampowered.com/app/2406770/"
+    },
+    {
+      "rank": 66,
+      "link": 130,
+      "name": "ARK: Survival Ascended",
+      "steamAppId": 2399830,
+      "source": "https://store.steampowered.com/app/2399830/"
+    },
+    {
+      "rank": 67,
+      "link": 131,
+      "name": "Terraria",
+      "steamAppId": 105600,
+      "source": "https://store.steampowered.com/app/105600/"
+    },
+    {
+      "rank": 68,
+      "link": 132,
+      "name": "Satisfactory",
+      "steamAppId": 526870,
+      "source": "https://store.steampowered.com/app/526870/"
+    },
+    {
+      "rank": 69,
+      "link": 133,
+      "name": "Age of Empires II: Definitive Edition",
+      "steamAppId": 813780,
+      "source": "https://store.steampowered.com/app/813780/"
+    },
+    {
+      "rank": 70,
+      "link": 134,
+      "name": "7 Days to Die",
+      "steamAppId": 251570,
+      "source": "https://store.steampowered.com/app/251570/"
+    },
+    {
+      "rank": 71,
+      "link": 135,
+      "name": "Mount & Blade II: Bannerlord",
+      "steamAppId": 261550,
+      "source": "https://store.steampowered.com/app/261550/"
+    },
+    {
+      "rank": 72,
+      "link": 136,
+      "name": "ELDEN RING",
+      "steamAppId": 1245620,
+      "source": "https://store.steampowered.com/app/1245620/"
+    },
+    {
+      "rank": 73,
+      "link": 137,
+      "name": "EA SPORTS FC™ 26",
+      "steamAppId": 3405690,
+      "source": "https://store.steampowered.com/app/3405690/"
+    },
+    {
+      "rank": 74,
+      "link": 138,
+      "name": "Limbus Company",
+      "steamAppId": 1973530,
+      "source": "https://store.steampowered.com/app/1973530/"
+    },
+    {
+      "rank": 75,
+      "link": 139,
+      "name": "Destiny 2",
+      "steamAppId": 1085660,
+      "source": "https://store.steampowered.com/app/1085660/"
+    },
+    {
+      "rank": 76,
+      "link": 140,
+      "name": "Factorio",
+      "steamAppId": 427520,
+      "source": "https://store.steampowered.com/app/427520/"
+    },
+    {
+      "rank": 77,
+      "link": 141,
+      "name": "OBS Studio",
+      "steamAppId": 1905180,
+      "source": "https://store.steampowered.com/app/1905180/"
+    },
+    {
+      "rank": 78,
+      "link": 142,
+      "name": "DPS: Desktop Pension Squad",
+      "steamAppId": 5135440,
+      "source": "https://store.steampowered.com/app/5135440/"
+    },
+    {
+      "rank": 79,
+      "link": 143,
+      "name": "FINAL FANTASY XIV Online",
+      "steamAppId": 39210,
+      "source": "https://store.steampowered.com/app/39210/"
+    },
+    {
+      "rank": 80,
+      "link": 144,
+      "name": "MapleStory",
+      "steamAppId": 216150,
+      "source": "https://store.steampowered.com/app/216150/"
+    },
+    {
+      "rank": 81,
+      "link": 145,
+      "name": "THE FINALS",
+      "steamAppId": 2073850,
+      "source": "https://store.steampowered.com/app/2073850/"
+    },
+    {
+      "rank": 82,
+      "link": 146,
+      "name": "The Isle",
+      "steamAppId": 376210,
+      "source": "https://store.steampowered.com/app/376210/"
+    },
+    {
+      "rank": 83,
+      "link": 147,
+      "name": "eFootball™",
+      "steamAppId": 1665460,
+      "source": "https://store.steampowered.com/app/1665460/"
+    },
+    {
+      "rank": 84,
+      "link": 148,
+      "name": "Crusader Kings III",
+      "steamAppId": 1158310,
+      "source": "https://store.steampowered.com/app/1158310/"
+    },
+    {
+      "rank": 85,
+      "link": 149,
+      "name": "PEAK",
+      "steamAppId": 3527290,
+      "source": "https://store.steampowered.com/app/3527290/"
+    },
+    {
+      "rank": 86,
+      "link": 150,
+      "name": "Deskrawl: Idle ARPG",
+      "steamAppId": 4623570,
+      "source": "https://store.steampowered.com/app/4623570/"
+    },
+    {
+      "rank": 87,
+      "link": 151,
+      "name": "Once Human",
+      "steamAppId": 2139460,
+      "source": "https://store.steampowered.com/app/2139460/"
+    },
+    {
+      "rank": 88,
+      "link": 152,
+      "name": "Unturned",
+      "steamAppId": 304930,
+      "source": "https://store.steampowered.com/app/304930/"
+    },
+    {
+      "rank": 89,
+      "link": 153,
+      "name": "Sid Meier's Civilization® V",
+      "steamAppId": 8930,
+      "source": "https://store.steampowered.com/app/8930/"
+    },
+    {
+      "rank": 90,
+      "link": 154,
+      "name": "Fallout 4",
+      "steamAppId": 377160,
+      "source": "https://store.steampowered.com/app/377160/"
+    },
+    {
+      "rank": 91,
+      "link": 155,
+      "name": "Escape from Tarkov",
+      "steamAppId": 3932890,
+      "source": "https://store.steampowered.com/app/3932890/"
+    },
+    {
+      "rank": 92,
+      "link": 156,
+      "name": "Hunt: Showdown 1896",
+      "steamAppId": 594650,
+      "source": "https://store.steampowered.com/app/594650/"
+    },
+    {
+      "rank": 93,
+      "link": 157,
+      "name": "Path of Exile 2",
+      "steamAppId": 2694490,
+      "source": "https://store.steampowered.com/app/2694490/"
+    },
+    {
+      "rank": 94,
+      "link": 158,
+      "name": "Cities: Skylines II",
+      "steamAppId": 949230,
+      "source": "https://store.steampowered.com/app/949230/"
+    },
+    {
+      "rank": 95,
+      "link": 159,
+      "name": "Don't Starve Together",
+      "steamAppId": 322330,
+      "source": "https://store.steampowered.com/app/322330/"
+    },
+    {
+      "rank": 96,
+      "link": 160,
+      "name": "Black Desert",
+      "steamAppId": 582660,
+      "source": "https://store.steampowered.com/app/582660/"
+    },
+    {
+      "rank": 97,
+      "link": 161,
+      "name": "tModLoader",
+      "steamAppId": 1281930,
+      "source": "https://store.steampowered.com/app/1281930/"
+    },
+    {
+      "rank": 98,
+      "link": 162,
+      "name": "Soundpad",
+      "steamAppId": 629520,
+      "source": "https://store.steampowered.com/app/629520/"
+    },
+    {
+      "rank": 99,
+      "link": 163,
+      "name": "Kingdom Come: Deliverance II",
+      "steamAppId": 1771300,
+      "source": "https://store.steampowered.com/app/1771300/"
+    },
+    {
+      "rank": 100,
+      "link": 164,
+      "name": "ARK: Survival Evolved",
+      "steamAppId": 346110,
+      "source": "https://store.steampowered.com/app/346110/"
+    }
+  ]
+}

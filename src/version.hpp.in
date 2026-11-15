@@ -1,0 +1,3 @@
+#pragma once
+#define MPG_VERSION "@MPG_VERSION@"
+#define MPG_VERSION_W L"@MPG_VERSION@"

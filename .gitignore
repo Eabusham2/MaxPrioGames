@@ -1,0 +1,14 @@
+/build/
+/build-*/
+/dist/
+/test-output/
+/.vs/
+*.user
+*.suo
+*.obj
+*.pdb
+*.ilk
+*.log
+*.exe
+*.zip
+__pycache__/

@@ -1,0 +1,1904 @@
+{
+  "schemaVersion": 1,
+  "reviewedDate": "2026-11-15",
+  "selection": "96 games from Valve's live Steam top-100 chart plus 14 major additional PC games; this is not a global popularity ranking.",
+  "chartSource": "https://store.steampowered.com/charts/mostplayed",
+  "excludedSteamApps": [
+    {
+      "steamAppId": 431960,
+      "name": "Wallpaper Engine",
+      "reason": "Non-game utility; never automatically prioritize"
+    },
+    {
+      "steamAppId": 1366800,
+      "name": "Crosshair X",
+      "reason": "Non-game utility; never automatically prioritize"
+    },
+    {
+      "steamAppId": 1905180,
+      "name": "OBS Studio",
+      "reason": "Non-game utility; never automatically prioritize"
+    },
+    {
+      "steamAppId": 629520,
+      "name": "Soundpad",
+      "reason": "Non-game utility; never automatically prioritize"
+    }
+  ],
+  "games": [
+    {
+      "id": "steam-730",
+      "name": "Counter-Strike 2",
+      "steamAppIds": [
+        730
+      ],
+      "executables": [
+        "cs2.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/730/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 1,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-570",
+      "name": "Dota 2",
+      "steamAppIds": [
+        570
+      ],
+      "executables": [
+        "dota2.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/570/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 2,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-4262460",
+      "name": "ROB RUN",
+      "steamAppIds": [
+        4262460
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/4262460/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 3,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-1422450",
+      "name": "Deadlock",
+      "steamAppIds": [
+        1422450
+      ],
+      "executables": [
+        "deadlock.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1422450/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 4,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-3419430",
+      "name": "Bongo Cat",
+      "steamAppIds": [
+        3419430
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/3419430/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 5,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-578080",
+      "name": "PUBG: BATTLEGROUNDS",
+      "steamAppIds": [
+        578080
+      ],
+      "executables": [
+        "TslGame.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/578080/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 6,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-1938090",
+      "name": "Call of Duty®",
+      "steamAppIds": [
+        1938090
+      ],
+      "executables": [
+        "cod.exe"
+      ],
+      "pathHints": [
+        "call of duty"
+      ],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1938090/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 7,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-3393110",
+      "name": "AION 2",
+      "steamAppIds": [
+        3393110
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/3393110/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 8,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-1867240",
+      "name": "WARDOGS",
+      "steamAppIds": [
+        1867240
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1867240/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 9,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-238960",
+      "name": "Path of Exile",
+      "steamAppIds": [
+        238960
+      ],
+      "executables": [
+        "PathOfExile.exe",
+        "PathOfExile_x64.exe",
+        "PathOfExileSteam.exe",
+        "PathOfExile_x64Steam.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/238960/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 10,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-1091500",
+      "name": "Cyberpunk 2077",
+      "steamAppIds": [
+        1091500
+      ],
+      "executables": [
+        "Cyberpunk2077.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1091500/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 11,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-252490",
+      "name": "Rust",
+      "steamAppIds": [
+        252490
+      ],
+      "executables": [
+        "RustClient.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/252490/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 12,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-440",
+      "name": "Team Fortress 2",
+      "steamAppIds": [
+        440
+      ],
+      "executables": [
+        "tf_win64.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/440/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 13,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-2868840",
+      "name": "Slay the Spire 2",
+      "steamAppIds": [
+        2868840
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/2868840/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 14,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-359550",
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "steamAppIds": [
+        359550
+      ],
+      "executables": [
+        "RainbowSix.exe",
+        "RainbowSix_Vulkan.exe",
+        "RainbowSix_DX11.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/359550/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 15,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-227300",
+      "name": "Euro Truck Simulator 2",
+      "steamAppIds": [
+        227300
+      ],
+      "executables": [
+        "eurotrucks2.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/227300/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 16,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-4530370",
+      "name": "Football Manager 27",
+      "steamAppIds": [
+        4530370
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/4530370/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 17,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-1172470",
+      "name": "Apex Legends™",
+      "steamAppIds": [
+        1172470
+      ],
+      "executables": [
+        "r5apex.exe",
+        "r5apex_dx12.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1172470/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 18,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-892970",
+      "name": "Valheim",
+      "steamAppIds": [
+        892970
+      ],
+      "executables": [
+        "valheim.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/892970/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 19,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-2767030",
+      "name": "Marvel Rivals",
+      "steamAppIds": [
+        2767030
+      ],
+      "executables": [
+        "MarvelRivals-Win64-Shipping.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/2767030/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 20,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-236390",
+      "name": "War Thunder",
+      "steamAppIds": [
+        236390
+      ],
+      "executables": [
+        "aces.exe"
+      ],
+      "pathHints": [
+        "war thunder"
+      ],
+      "service": false,
+      "source": "https://store.steampowered.com/app/236390/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 21,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-1203620",
+      "name": "Enshrouded",
+      "steamAppIds": [
+        1203620
+      ],
+      "executables": [
+        "enshrouded.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1203620/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 22,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-1808500",
+      "name": "ARC Raiders",
+      "steamAppIds": [
+        1808500
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1808500/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 23,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-322170",
+      "name": "Geometry Dash",
+      "steamAppIds": [
+        322170
+      ],
+      "executables": [
+        "GeometryDash.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/322170/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 24,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-230410",
+      "name": "Warframe",
+      "steamAppIds": [
+        230410
+      ],
+      "executables": [
+        "Warframe.x64.exe",
+        "Warframe.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/230410/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 25,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-4115450",
+      "name": "Phantom Blade Zero",
+      "steamAppIds": [
+        4115450
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/4115450/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 26,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-3240220",
+      "name": "Grand Theft Auto V Enhanced",
+      "steamAppIds": [
+        3240220
+      ],
+      "executables": [
+        "GTA5_Enhanced.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/3240220/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 27,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-271590",
+      "name": "Grand Theft Auto V Legacy",
+      "steamAppIds": [
+        271590
+      ],
+      "executables": [
+        "GTA5.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/271590/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 28,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-381210",
+      "name": "Dead by Daylight",
+      "steamAppIds": [
+        381210
+      ],
+      "executables": [
+        "DeadByDaylight-Win64-Shipping.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/381210/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 29,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-1086940",
+      "name": "Baldur's Gate 3",
+      "steamAppIds": [
+        1086940
+      ],
+      "executables": [
+        "bg3.exe",
+        "bg3_dx11.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1086940/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 31,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-108600",
+      "name": "Project Zomboid",
+      "steamAppIds": [
+        108600
+      ],
+      "executables": [
+        "ProjectZomboid64.exe",
+        "ProjectZomboid32.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/108600/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 32,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-2357570",
+      "name": "Overwatch®",
+      "steamAppIds": [
+        2357570
+      ],
+      "executables": [
+        "Overwatch.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/2357570/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 34,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-221100",
+      "name": "DayZ",
+      "steamAppIds": [
+        221100
+      ],
+      "executables": [
+        "DayZ_x64.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/221100/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 35,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-413150",
+      "name": "Stardew Valley",
+      "steamAppIds": [
+        413150
+      ],
+      "executables": [
+        "Stardew Valley.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/413150/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 36,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-2300320",
+      "name": "Farming Simulator 25",
+      "steamAppIds": [
+        2300320
+      ],
+      "executables": [
+        "FarmingSimulator2025Game.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/2300320/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 37,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-3678970",
+      "name": "TBH: Task Bar Hero",
+      "steamAppIds": [
+        3678970
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/3678970/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 38,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-4080220",
+      "name": "EA SPORTS FC™ 27",
+      "steamAppIds": [
+        4080220
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/4080220/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 39,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-438100",
+      "name": "VRChat",
+      "steamAppIds": [
+        438100
+      ],
+      "executables": [
+        "VRChat.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/438100/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 40,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-489830",
+      "name": "The Elder Scrolls V: Skyrim Special Edition",
+      "steamAppIds": [
+        489830
+      ],
+      "executables": [
+        "SkyrimSE.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/489830/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 41,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-4348910",
+      "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+      "steamAppIds": [
+        4348910
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/4348910/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 42,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-3241660",
+      "name": "R.E.P.O.",
+      "steamAppIds": [
+        3241660
+      ],
+      "executables": [
+        "REPO.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/3241660/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 43,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-394360",
+      "name": "Hearts of Iron IV",
+      "steamAppIds": [
+        394360
+      ],
+      "executables": [
+        "hoi4.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/394360/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 44,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-2807960",
+      "name": "Battlefield™ 6",
+      "steamAppIds": [
+        2807960
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/2807960/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 45,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-5335510",
+      "name": "Moon Sweepers",
+      "steamAppIds": [
+        5335510
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/5335510/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 46,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-292030",
+      "name": "The Witcher 3: Wild Hunt — Remastered",
+      "steamAppIds": [
+        292030
+      ],
+      "executables": [
+        "witcher3.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/292030/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 47,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-250900",
+      "name": "The Binding of Isaac: Rebirth",
+      "steamAppIds": [
+        250900
+      ],
+      "executables": [
+        "isaac-ng.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/250900/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 48,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-2507950",
+      "name": "Delta Force",
+      "steamAppIds": [
+        2507950
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/2507950/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 49,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-1142710",
+      "name": "Total War: WARHAMMER III",
+      "steamAppIds": [
+        1142710
+      ],
+      "executables": [
+        "Warhammer3.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1142710/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 50,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-284160",
+      "name": "BeamNG.drive",
+      "steamAppIds": [
+        284160
+      ],
+      "executables": [
+        "BeamNG.drive.x64.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/284160/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 51,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-1222670",
+      "name": "The Sims™ 4",
+      "steamAppIds": [
+        1222670
+      ],
+      "executables": [
+        "TS4_x64.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1222670/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 52,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-4000",
+      "name": "Garry's Mod",
+      "steamAppIds": [
+        4000
+      ],
+      "executables": [
+        "gmod.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/4000/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 53,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-1174180",
+      "name": "Red Dead Redemption 2",
+      "steamAppIds": [
+        1174180
+      ],
+      "executables": [
+        "RDR2.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1174180/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 54,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-4126040",
+      "name": "Aniimo",
+      "steamAppIds": [
+        4126040
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/4126040/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 55,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-553850",
+      "name": "HELLDIVERS™ 2",
+      "steamAppIds": [
+        553850
+      ],
+      "executables": [
+        "helldivers2.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/553850/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 56,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-294100",
+      "name": "RimWorld",
+      "steamAppIds": [
+        294100
+      ],
+      "executables": [
+        "RimWorldWin64.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/294100/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 57,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-5052450",
+      "name": "Desktop Wallet Heroes",
+      "steamAppIds": [
+        5052450
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/5052450/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 58,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-289070",
+      "name": "Sid Meier’s Civilization® VI",
+      "steamAppIds": [
+        289070
+      ],
+      "executables": [
+        "CivilizationVI.exe",
+        "CivilizationVI_DX12.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/289070/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 59,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-3321460",
+      "name": "Crimson Desert Enhanced",
+      "steamAppIds": [
+        3321460
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/3321460/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 60,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-252950",
+      "name": "Rocket League®",
+      "steamAppIds": [
+        252950
+      ],
+      "executables": [
+        "RocketLeague.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/252950/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 61,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-2073620",
+      "name": "Arena Breakout: Infinite",
+      "steamAppIds": [
+        2073620
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/2073620/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 62,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-1623730",
+      "name": "Palworld",
+      "steamAppIds": [
+        1623730
+      ],
+      "executables": [
+        "Palworld-Win64-Shipping.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1623730/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 63,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-550",
+      "name": "Left 4 Dead 2",
+      "steamAppIds": [
+        550
+      ],
+      "executables": [
+        "left4dead2.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/550/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 64,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-2406770",
+      "name": "Bodycam",
+      "steamAppIds": [
+        2406770
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/2406770/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 65,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-2399830",
+      "name": "ARK: Survival Ascended",
+      "steamAppIds": [
+        2399830
+      ],
+      "executables": [
+        "ArkAscended.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/2399830/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 66,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-105600",
+      "name": "Terraria",
+      "steamAppIds": [
+        105600
+      ],
+      "executables": [
+        "Terraria.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/105600/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 67,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-526870",
+      "name": "Satisfactory",
+      "steamAppIds": [
+        526870
+      ],
+      "executables": [
+        "FactoryGame-Win64-Shipping.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/526870/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 68,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-813780",
+      "name": "Age of Empires II: Definitive Edition",
+      "steamAppIds": [
+        813780
+      ],
+      "executables": [
+        "AoE2DE_s.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/813780/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 69,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-251570",
+      "name": "7 Days to Die",
+      "steamAppIds": [
+        251570
+      ],
+      "executables": [
+        "7DaysToDie.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/251570/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 70,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-261550",
+      "name": "Mount & Blade II: Bannerlord",
+      "steamAppIds": [
+        261550
+      ],
+      "executables": [
+        "Bannerlord.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/261550/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 71,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-1245620",
+      "name": "ELDEN RING",
+      "steamAppIds": [
+        1245620
+      ],
+      "executables": [
+        "eldenring.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1245620/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 72,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-3405690",
+      "name": "EA SPORTS FC™ 26",
+      "steamAppIds": [
+        3405690
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/3405690/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 73,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-1973530",
+      "name": "Limbus Company",
+      "steamAppIds": [
+        1973530
+      ],
+      "executables": [
+        "LimbusCompany.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1973530/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 74,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-1085660",
+      "name": "Destiny 2",
+      "steamAppIds": [
+        1085660
+      ],
+      "executables": [
+        "destiny2.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1085660/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 75,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-427520",
+      "name": "Factorio",
+      "steamAppIds": [
+        427520
+      ],
+      "executables": [
+        "factorio.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/427520/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 76,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-5135440",
+      "name": "DPS: Desktop Pension Squad",
+      "steamAppIds": [
+        5135440
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/5135440/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 78,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-39210",
+      "name": "FINAL FANTASY XIV Online",
+      "steamAppIds": [
+        39210
+      ],
+      "executables": [
+        "ffxiv_dx11.exe",
+        "ffxiv.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/39210/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 79,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-216150",
+      "name": "MapleStory",
+      "steamAppIds": [
+        216150
+      ],
+      "executables": [
+        "MapleStory.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/216150/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 80,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-2073850",
+      "name": "THE FINALS",
+      "steamAppIds": [
+        2073850
+      ],
+      "executables": [
+        "Discovery.exe"
+      ],
+      "pathHints": [
+        "the finals"
+      ],
+      "service": false,
+      "source": "https://store.steampowered.com/app/2073850/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 81,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-376210",
+      "name": "The Isle",
+      "steamAppIds": [
+        376210
+      ],
+      "executables": [
+        "TheIsleClient-Win64-Shipping.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/376210/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 82,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-1665460",
+      "name": "eFootball™",
+      "steamAppIds": [
+        1665460
+      ],
+      "executables": [
+        "eFootball.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1665460/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 83,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-1158310",
+      "name": "Crusader Kings III",
+      "steamAppIds": [
+        1158310
+      ],
+      "executables": [
+        "ck3.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1158310/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 84,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-3527290",
+      "name": "PEAK",
+      "steamAppIds": [
+        3527290
+      ],
+      "executables": [
+        "PEAK.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/3527290/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 85,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-4623570",
+      "name": "Deskrawl: Idle ARPG",
+      "steamAppIds": [
+        4623570
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/4623570/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 86,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-2139460",
+      "name": "Once Human",
+      "steamAppIds": [
+        2139460
+      ],
+      "executables": [
+        "OnceHuman.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/2139460/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 87,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-304930",
+      "name": "Unturned",
+      "steamAppIds": [
+        304930
+      ],
+      "executables": [
+        "Unturned.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/304930/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 88,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-8930",
+      "name": "Sid Meier's Civilization® V",
+      "steamAppIds": [
+        8930
+      ],
+      "executables": [
+        "CivilizationV.exe",
+        "CivilizationV_DX11.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/8930/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 89,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-377160",
+      "name": "Fallout 4",
+      "steamAppIds": [
+        377160
+      ],
+      "executables": [
+        "Fallout4.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/377160/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 90,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-3932890",
+      "name": "Escape from Tarkov",
+      "steamAppIds": [
+        3932890
+      ],
+      "executables": [
+        "EscapeFromTarkov.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/3932890/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 91,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-594650",
+      "name": "Hunt: Showdown 1896",
+      "steamAppIds": [
+        594650
+      ],
+      "executables": [
+        "HuntGame.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/594650/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 92,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-2694490",
+      "name": "Path of Exile 2",
+      "steamAppIds": [
+        2694490
+      ],
+      "executables": [
+        "PathOfExileSteam2.exe",
+        "PathOfExile2.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/2694490/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 93,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-949230",
+      "name": "Cities: Skylines II",
+      "steamAppIds": [
+        949230
+      ],
+      "executables": [
+        "Cities2.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/949230/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 94,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-322330",
+      "name": "Don't Starve Together",
+      "steamAppIds": [
+        322330
+      ],
+      "executables": [
+        "dontstarve_steam.exe",
+        "dontstarve_steam_x64.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/322330/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 95,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-582660",
+      "name": "Black Desert",
+      "steamAppIds": [
+        582660
+      ],
+      "executables": [
+        "BlackDesert64.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/582660/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 96,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-1281930",
+      "name": "tModLoader",
+      "steamAppIds": [
+        1281930
+      ],
+      "executables": [],
+      "pathHints": [],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1281930/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 97,
+      "detection": "Steam app ID / installed root; no guessed executable alias"
+    },
+    {
+      "id": "steam-1771300",
+      "name": "Kingdom Come: Deliverance II",
+      "steamAppIds": [
+        1771300
+      ],
+      "executables": [
+        "KingdomCome.exe"
+      ],
+      "pathHints": [
+        "kingdomcome",
+        "kingdom come"
+      ],
+      "service": false,
+      "source": "https://store.steampowered.com/app/1771300/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 99,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "steam-346110",
+      "name": "ARK: Survival Evolved",
+      "steamAppIds": [
+        346110
+      ],
+      "executables": [
+        "ShooterGame.exe"
+      ],
+      "pathHints": [
+        "\\ark\\",
+        "\\ark survival evolved\\",
+        "\\ark survival evolved server\\"
+      ],
+      "service": false,
+      "source": "https://store.steampowered.com/app/346110/",
+      "selection": "Steam top 100 current players",
+      "steamRank": 100,
+      "detection": "Steam app ID / known executable aliases"
+    },
+    {
+      "id": "fortnite",
+      "name": "Fortnite",
+      "steamAppIds": [],
+      "executables": [
+        "FortniteClient-Win64-Shipping.exe",
+        "FortniteClient-Win64-Shipping_BE.exe",
+        "FortniteClient-Win64-Shipping_EAC.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://www.fortnite.com/",
+      "selection": "Additional major PC game",
+      "detection": "Exact executable; generic names require game-specific path"
+    },
+    {
+      "id": "valorant",
+      "name": "VALORANT",
+      "steamAppIds": [],
+      "executables": [
+        "VALORANT-Win64-Shipping.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://playvalorant.com/",
+      "selection": "Additional major PC game",
+      "detection": "Exact executable; generic names require game-specific path"
+    },
+    {
+      "id": "league-of-legends",
+      "name": "League of Legends",
+      "steamAppIds": [],
+      "executables": [
+        "League of Legends.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://www.leagueoflegends.com/",
+      "selection": "Additional major PC game",
+      "detection": "Exact executable; generic names require game-specific path"
+    },
+    {
+      "id": "minecraft-java",
+      "name": "Minecraft: Java Edition",
+      "steamAppIds": [],
+      "executables": [
+        "javaw.exe",
+        "java.exe"
+      ],
+      "pathHints": [
+        ".minecraft\\runtime",
+        "minecraft launcher\\runtime"
+      ],
+      "service": false,
+      "source": "https://www.minecraft.net/en-us/store/minecraft-java-bedrock-edition-pc",
+      "selection": "Additional major PC game",
+      "detection": "Exact executable; generic names require game-specific path"
+    },
+    {
+      "id": "minecraft-bedrock",
+      "name": "Minecraft: Bedrock Edition",
+      "steamAppIds": [],
+      "executables": [
+        "Minecraft.Windows.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://www.minecraft.net/en-us/store/minecraft-java-bedrock-edition-pc",
+      "selection": "Additional major PC game",
+      "detection": "Exact executable; generic names require game-specific path"
+    },
+    {
+      "id": "roblox",
+      "name": "Roblox",
+      "steamAppIds": [],
+      "executables": [
+        "RobloxPlayerBeta.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://www.roblox.com/download",
+      "selection": "Additional major PC game",
+      "detection": "Exact executable; generic names require game-specific path"
+    },
+    {
+      "id": "world-of-warcraft",
+      "name": "World of Warcraft",
+      "steamAppIds": [],
+      "executables": [
+        "Wow.exe",
+        "WowClassic.exe",
+        "WowClassicT.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://worldofwarcraft.blizzard.com/",
+      "selection": "Additional major PC game",
+      "detection": "Exact executable; generic names require game-specific path"
+    },
+    {
+      "id": "diablo-iv",
+      "name": "Diablo IV",
+      "steamAppIds": [],
+      "executables": [
+        "Diablo IV.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://diablo4.blizzard.com/",
+      "selection": "Additional major PC game",
+      "detection": "Exact executable; generic names require game-specific path"
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "steamAppIds": [],
+      "executables": [
+        "Hearthstone.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://hearthstone.blizzard.com/",
+      "selection": "Additional major PC game",
+      "detection": "Exact executable; generic names require game-specific path"
+    },
+    {
+      "id": "starcraft-ii",
+      "name": "StarCraft II",
+      "steamAppIds": [],
+      "executables": [
+        "SC2_x64.exe",
+        "SC2.exe"
+      ],
+      "pathHints": [
+        "starcraft ii",
+        "starcraft2"
+      ],
+      "service": false,
+      "source": "https://starcraft2.blizzard.com/",
+      "selection": "Additional major PC game",
+      "detection": "Exact executable; generic names require game-specific path"
+    },
+    {
+      "id": "genshin-impact",
+      "name": "Genshin Impact",
+      "steamAppIds": [],
+      "executables": [
+        "GenshinImpact.exe",
+        "YuanShen.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://genshin.hoyoverse.com/",
+      "selection": "Additional major PC game",
+      "detection": "Exact executable; generic names require game-specific path"
+    },
+    {
+      "id": "honkai-star-rail",
+      "name": "Honkai: Star Rail",
+      "steamAppIds": [],
+      "executables": [
+        "StarRail.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://hsr.hoyoverse.com/",
+      "selection": "Additional major PC game",
+      "detection": "Exact executable; generic names require game-specific path"
+    },
+    {
+      "id": "zenless-zone-zero",
+      "name": "Zenless Zone Zero",
+      "steamAppIds": [],
+      "executables": [
+        "ZenlessZoneZero.exe"
+      ],
+      "pathHints": [],
+      "service": false,
+      "source": "https://zenless.hoyoverse.com/",
+      "selection": "Additional major PC game",
+      "detection": "Exact executable; generic names require game-specific path"
+    },
+    {
+      "id": "wuthering-waves",
+      "name": "Wuthering Waves",
+      "steamAppIds": [],
+      "executables": [
+        "Wuthering Waves.exe",
+        "Client-Win64-Shipping.exe"
+      ],
+      "pathHints": [
+        "wuthering waves",
+        "wutheringwaves"
+      ],
+      "service": false,
+      "source": "https://wutheringwaves.kurogames.com/",
+      "selection": "Additional major PC game",
+      "detection": "Exact executable; generic names require game-specific path"
+    }
+  ],
+  "services": [
+    {
+      "id": "service-easy-anticheat",
+      "name": "Easy Anti-Cheat",
+      "steamAppIds": [],
+      "executables": [
+        "EasyAntiCheat.exe",
+        "EasyAntiCheat_EOS.exe"
+      ],
+      "pathHints": [
+        "easyanticheat"
+      ],
+      "service": true,
+      "source": "https://www.easy.ac/support/articles",
+      "selection": "Game service family",
+      "detection": "Exact executable plus game-service path"
+    },
+    {
+      "id": "service-battleye",
+      "name": "BattlEye",
+      "steamAppIds": [],
+      "executables": [
+        "BEService.exe",
+        "BEService_x64.exe"
+      ],
+      "pathHints": [
+        "battleye"
+      ],
+      "service": true,
+      "source": "https://www.battleye.com/support/faq/",
+      "selection": "Game service family",
+      "detection": "Exact executable plus game-service path"
+    },
+    {
+      "id": "service-riot-vanguard",
+      "name": "Riot Vanguard",
+      "steamAppIds": [],
+      "executables": [
+        "vgc.exe",
+        "vgm.exe"
+      ],
+      "pathHints": [
+        "riot vanguard"
+      ],
+      "service": true,
+      "source": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/43435443937299",
+      "selection": "Game service family",
+      "detection": "Exact executable plus game-service path"
+    },
+    {
+      "id": "service-riot-client",
+      "name": "Riot Client Services",
+      "steamAppIds": [],
+      "executables": [
+        "RiotClientServices.exe"
+      ],
+      "pathHints": [
+        "riot client"
+      ],
+      "service": true,
+      "source": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/43435443937299",
+      "selection": "Game service family",
+      "detection": "Exact executable plus game-service path"
+    },
+    {
+      "id": "service-ea-anticheat",
+      "name": "EA Javelin anticheat",
+      "steamAppIds": [],
+      "executables": [
+        "EAAntiCheat.GameService.exe"
+      ],
+      "pathHints": [
+        "ea\\ac",
+        "eaanticheat"
+      ],
+      "service": true,
+      "source": "https://help.ea.com/en/articles/platforms/pc-ea-anticheat/",
+      "selection": "Game service family",
+      "detection": "Exact executable plus game-service path"
+    },
+    {
+      "id": "service-ea-background",
+      "name": "EA Background Service",
+      "steamAppIds": [],
+      "executables": [
+        "EABackgroundService.exe"
+      ],
+      "pathHints": [
+        "electronic arts\\ea desktop"
+      ],
+      "service": true,
+      "source": "https://help.ea.com/en/ea-app/",
+      "selection": "Game service family",
+      "detection": "Exact executable plus game-service path"
+    },
+    {
+      "id": "service-steam-client-service",
+      "name": "Steam Client Service",
+      "steamAppIds": [],
+      "executables": [
+        "steamservice.exe"
+      ],
+      "pathHints": [
+        "steam"
+      ],
+      "service": true,
+      "source": "https://help.steampowered.com/",
+      "selection": "Game service family",
+      "detection": "Exact executable plus game-service path"
+    },
+    {
+      "id": "service-epic-online-services",
+      "name": "Epic Online Services",
+      "steamAppIds": [],
+      "executables": [
+        "EpicOnlineServices.exe"
+      ],
+      "pathHints": [
+        "epic online services",
+        "epiconlineservices"
+      ],
+      "service": true,
+      "source": "https://dev.epicgames.com/docs/epic-online-services",
+      "selection": "Game service family",
+      "detection": "Exact executable plus game-service path"
+    },
+    {
+      "id": "service-battle-net-agent",
+      "name": "Battle.net Agent",
+      "steamAppIds": [],
+      "executables": [
+        "Agent.exe"
+      ],
+      "pathHints": [
+        "battle.net\\agent"
+      ],
+      "service": true,
+      "source": "https://us.forums.blizzard.com/en/blizzard/t/game-crashes-exceptioninternalerror/59378",
+      "selection": "Game service family",
+      "detection": "Exact executable plus game-service path"
+    },
+    {
+      "id": "service-microsoft-gaming-services",
+      "name": "Microsoft Gaming Services",
+      "steamAppIds": [],
+      "executables": [
+        "GamingServices.exe",
+        "GamingServicesNet.exe"
+      ],
+      "pathHints": [
+        "microsoft.gamingservices_"
+      ],
+      "service": true,
+      "source": "https://support.xbox.com/help/games-apps/troubleshooting/gaming-services-repair-tool",
+      "selection": "Game service family",
+      "detection": "Exact executable plus game-service path"
+    }
+  ]
+}

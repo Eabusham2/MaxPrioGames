@@ -1,0 +1,168 @@
+name: Windows build, verify, and release
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: maxpriogames-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  windows:
+    name: Build and verify Windows x64
+    runs-on: windows-2022
+    timeout-minutes: 20
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - name: Set release version
+        id: version
+        run: |
+          $version = "1.0.$env:GITHUB_RUN_NUMBER"
+          "version=$version" >> $env:GITHUB_OUTPUT
+          "MPG_VERSION=$version" >> $env:GITHUB_ENV
+      - name: Configure static native build
+        run: cmake -S . -B build -G "Visual Studio 17 2022" -A x64 "-DMPG_VERSION=$env:MPG_VERSION" -DBUILD_TESTING=ON
+      - name: Verify generated game catalog is current
+        run: python ./scripts/Generate-Catalog.py --check
+      - name: Build
+        run: cmake --build build --config Release --parallel
+      - name: Verify matching, settings, and real process priority and affinity
+        run: ctest --test-dir build -C Release --output-on-failure
+      - name: Verify native UI, tray lifecycle, single instance, and portable startup
+        run: ./scripts/Test-Windows.ps1 -Executable ./build/Release/MaxPrioGames.exe
+      - name: Measure actual idle process footprint
+        run: ./scripts/Measure-Footprint.ps1 -Executable ./build/Release/MaxPrioGames.exe -SampleSeconds 40
+      - name: Package portable executable and installer
+        run: |
+          New-Item -ItemType Directory dist -Force | Out-Null
+          $binary = (Resolve-Path ./build/Release/MaxPrioGames.exe).Path
+          $dist = (Resolve-Path ./dist).Path
+          Copy-Item $binary "$dist/MaxPrioGames-$env:MPG_VERSION-windows-x64-portable.exe"
+          $compiler = Join-Path ${env:ProgramFiles(x86)} 'Inno Setup 6/ISCC.exe'
+          if (-not (Test-Path $compiler)) {
+            $compiler = (Get-Command ISCC.exe -ErrorAction Stop).Source
+          }
+          & $compiler "/DAppVersion=$env:MPG_VERSION" "/DBinaryPath=$binary" "/DReleaseDir=$dist" ./installer/MaxPrioGames.iss
+          if ($LASTEXITCODE -ne 0) { throw "Inno Setup failed: $LASTEXITCODE" }
+      - name: Verify real installer and uninstall lifecycle
+        run: |
+          ./scripts/Test-Installer.ps1 -Installer "./dist/MaxPrioGames-$env:MPG_VERSION-windows-x64-setup.exe"
+      - name: Collect verified release evidence and checksums
+        run: |
+          Copy-Item ./test-output/footprint.json, ./test-output/FOOTPRINT.md, ./test-output/ui-smoke.json, ./test-output/windows-integration.json, ./test-output/installer-integration.json ./dist/
+          Copy-Item ./LICENSE ./dist/LICENSE.txt
+          $installer = Get-Item "./dist/MaxPrioGames-$env:MPG_VERSION-windows-x64-setup.exe"
+          $footprint = Get-Content ./dist/footprint.json -Raw | ConvertFrom-Json
+          $footprint | Add-Member -NotePropertyName installerBytes -NotePropertyValue $installer.Length
+          $installation = Get-Content ./dist/installer-integration.json -Raw | ConvertFrom-Json
+          $footprint | Add-Member -NotePropertyName installedProgramBytes -NotePropertyValue $installation.installedProgramBytes
+          $footprint | ConvertTo-Json -Depth 10 | Set-Content ./dist/footprint.json -Encoding utf8
+          "`nInstaller download: $($installer.Length) bytes. Installed program files: $($installation.installedProgramBytes) bytes (including uninstaller; excludes per-user settings and Windows task metadata)." | Add-Content ./dist/FOOTPRINT.md -Encoding utf8
+          $hashes = Get-ChildItem ./dist -File | Sort-Object Name | ForEach-Object {
+            $hash = (Get-FileHash -Algorithm SHA256 $_.FullName).Hash.ToLowerInvariant()
+            "$hash  $($_.Name)"
+          }
+          $hashes | Set-Content ./dist/SHA256SUMS.txt -Encoding ascii
+          Get-Content ./dist/FOOTPRINT.md | Add-Content $env:GITHUB_STEP_SUMMARY
+      - name: Upload verified release assets
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: verified-windows-release
+          path: dist/*
+          if-no-files-found: error
+          retention-days: 14
+      - name: Preserve test diagnostics
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: windows-test-diagnostics
+          path: |
+            test-output/*.json
+            test-output/*.md
+            test-output/*.log
+            build/Testing/Temporary/LastTest.log
+          if-no-files-found: warn
+          retention-days: 14
+
+  release:
+    name: Publish validated release
+    needs: windows
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+    runs-on: windows-2022
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Download only the successful build's assets
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: verified-windows-release
+          path: dist
+      - name: Publish immutable version
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_VERSION: ${{ needs.windows.outputs.version }}
+          RELEASE_COMMIT: ${{ github.sha }}
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $false
+          Set-Location dist
+          $checksums = @(Get-Content ./SHA256SUMS.txt)
+          if ($checksums.Count -eq 0) { throw 'The checksum list is empty.' }
+          foreach ($line in $checksums) {
+            if ($line -notmatch '^([a-f0-9]{64})  (.+)$') { throw "Invalid checksum entry: $line" }
+            $expected = $Matches[1]
+            $file = $Matches[2]
+            $actual = (Get-FileHash -Algorithm SHA256 -LiteralPath $file).Hash.ToLowerInvariant()
+            if ($actual -ne $expected) { throw "SHA-256 mismatch: $file" }
+            Write-Host "$file verified"
+          }
+          $tag = "v$env:RELEASE_VERSION"
+          $title = "MaxPrioGames $env:RELEASE_VERSION"
+          $notes = @(
+            'Native Windows x64 game priority and processor-affinity manager.',
+            '',
+            'Choose **setup.exe** for installation with startup registration, or **portable.exe** for a standalone file with a startup toggle.',
+            '',
+            ('Built from commit `{0}`. Matching/settings tests, real priority-and-affinity tests on a disposable helper, UI/tray lifecycle, portable startup, installer installation, and uninstallation all passed before publication.' -f $env:RELEASE_COMMIT),
+            '',
+            'The binaries are unsigned. Windows may display an unknown-publisher/SmartScreen prompt. Administrator rights are used to manage eligible game processes.',
+            '',
+            (Get-Content ./FOOTPRINT.md -Raw)
+          ) -join "`n"
+          $notes | Set-Content ../release-notes.md -Encoding utf8
+          $assets = @(Get-ChildItem -File | ForEach-Object { $_.FullName })
+          $existingJson = gh release view $tag --json isDraft,targetCommitish 2>$null
+          if ($LASTEXITCODE -eq 0) {
+            $existing = $existingJson | ConvertFrom-Json
+            if ($existing.targetCommitish -ne $env:RELEASE_COMMIT) { throw 'Refusing to replace a release for a different commit.' }
+            if (-not $existing.isDraft) {
+              Write-Host "Release $tag already published for this exact commit; preserving it."
+              exit 0
+            }
+            gh release upload $tag @assets --clobber
+            if ($LASTEXITCODE -ne 0) { throw 'Uploading the verified release assets failed.' }
+            gh release edit $tag --notes-file ../release-notes.md --title $title
+            if ($LASTEXITCODE -ne 0) { throw 'Updating the draft release failed.' }
+          } else {
+            gh release create $tag @assets --target $env:RELEASE_COMMIT --title $title --notes-file ../release-notes.md --draft
+            if ($LASTEXITCODE -ne 0) { throw 'Creating the draft release failed.' }
+          }
+          gh release edit $tag --draft=false --latest
+          if ($LASTEXITCODE -ne 0) { throw 'Publishing the validated release failed.' }
